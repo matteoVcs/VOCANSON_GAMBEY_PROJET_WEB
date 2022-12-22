@@ -1,0 +1,11 @@
+.test {
+    width: 5%;
+    height: auto;
+    border: 5px solid gray;
+}
+
+.test:hover {
+    width: 25%;
+    height: auto;
+    padding-right: 74%;
+}

@@ -1,14 +1,28 @@
 .test {
     width: 5%;
     height: auto;
+    transition: width 2s;
     border: 5px solid gray;
+    display: block;
 }
 
 .test:hover  {
     width: 25%;
     height: auto;
     padding-right: 74%;
+
 }
+
+
+#place{
+   display: block;
+   margin-top: 10px;
+}
+
+
+
+
+
 
 body{
     background-color: #3f3e3e;
@@ -81,6 +95,13 @@ li a:hover:not(.active) {
   
   .dropdown-content a:hover {background-color: #ddd;}
   
-  .dropdown:hover .dropdown-content {display: block;}
-  
+  .dropdown:hover .dropdown-content {display: block;  position: relative; right: 20%;}
+   
   .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+
+
+
+
+  

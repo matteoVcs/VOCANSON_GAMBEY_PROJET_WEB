@@ -4,6 +4,8 @@
     transition: width 2s;
     border: 5px solid gray;
     display: block;
+    background-color: #111;
+    box-shadow: #ffffff 0px 0px 10px 0px;
 }
 
 .test:hover  {
